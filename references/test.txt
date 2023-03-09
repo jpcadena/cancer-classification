@@ -1,0 +1,14 @@
+1.    En Python se solicita crear un programa que permita dar como resultado si es CANCER  MALIGNO (M) o BENIGNO (B) recibiendo por teclado
+•    Radio
+•    Textura
+•    Perímetro
+•    Área
+•    Suavidad
+•    Compacidad
+•    Simetría
+•    Dimensión_fractal
+
+El programa debe de contar con un modelo de redes neuronales entrenado con un set de datos proporcionado adjunto al correo llamado RegistroCancer.csv
+
+
+ENTREGABLE: Se debe devolver de esta actividad el código fuente en Python descrito el código con las funcionalidades y un breve video de ejecución del programa.
