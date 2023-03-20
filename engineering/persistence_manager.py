@@ -81,17 +81,11 @@ class PersistenceManager:
         if dtypes:
             for key, value in dtypes.items():
                 if value in (int, float):
-                    try:
-                        dataframe[key] = pd.to_numeric(dataframe[key],
-                                                       errors='coerce')
-                        dataframe[key] = dataframe[key].astype(value)
-                    except Exception as exc:
-                        logger.error(exc)
+                    dataframe[key] = pd.to_numeric(
+                        dataframe[key], errors='coerce')
+                    dataframe[key] = dataframe[key].astype(value)
                 else:
-                    try:
-                        dataframe[key] = dataframe[key].astype(value)
-                    except Exception as exc:
-                        logger.error(exc)
+                    dataframe[key] = dataframe[key].astype(value)
         return dataframe
 
     @staticmethod
