@@ -59,7 +59,6 @@
 
 ## About the project
 
-IN PROGRESS...
 ![Project][project-screenshot]
 
 This project is about Cancer classification and uses multiple Machine 
@@ -121,7 +120,7 @@ engineering, modelling, reports, etc.
 
 ### Usage
 
-1. If found **sample.env**, rename it with to **.env**.
+1. If found **sample.env**, rename it to **.env**.
 2. Replace your **credentials** into the *.env* file.
 3. Execute with console
     ```
