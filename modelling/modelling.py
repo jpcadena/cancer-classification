@@ -2,7 +2,6 @@
 Model prediction script
 """
 import logging
-
 import numpy as np
 import pandas as pd
 from core.decorators import with_logging, benchmark

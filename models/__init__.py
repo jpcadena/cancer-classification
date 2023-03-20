@@ -1,3 +1,3 @@
 """
-script
+Models package initialization
 """

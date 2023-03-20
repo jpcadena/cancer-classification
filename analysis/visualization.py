@@ -7,7 +7,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt, cm
-
 from core.config import FIG_SIZE, FONT_SIZE, PALETTE, RE_PATTERN, RE_REPL
 from engineering.persistence_manager import DataType
 
