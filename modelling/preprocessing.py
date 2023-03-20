@@ -11,6 +11,7 @@ from core.config import NUMERICS
 from core.decorators import with_logging, benchmark
 from engineering.persistence_manager import DataType
 
+
 @with_logging
 @benchmark
 def lof_observation(
